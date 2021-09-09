@@ -1,0 +1,48 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html, main {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#textoNasa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#imagemNasa {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
